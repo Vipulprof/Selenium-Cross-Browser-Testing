@@ -47,8 +47,8 @@ public class Baselibrary
 	@Test
 	public void verifytitle()
 	{
-		driver.get("https://master.d3u2qbic13a7jo.amplifyapp.com/home");
-		String expectedtitle="Marketplace - Referrizer";
+		driver.get("");
+		String expectedtitle="";
 		String actualtitle= driver.getTitle();
 		
 		Assert.assertEquals(expectedtitle,expectedtitle);
